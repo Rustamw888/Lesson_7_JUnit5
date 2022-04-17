@@ -1,4 +1,4 @@
-package guru.qa;
+package guru.qa.lesson;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;

@@ -1,6 +1,6 @@
-package guru.qa.junit;
+package guru.qa.lesson.junit;
 
-import guru.qa.SimpleTest;
+import guru.qa.lesson.SimpleTest;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 

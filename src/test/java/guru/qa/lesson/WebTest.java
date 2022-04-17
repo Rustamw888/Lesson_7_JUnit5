@@ -1,9 +1,9 @@
-package guru.qa;
+package guru.qa.lesson;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
-import guru.qa.domain.MenuItem;
+import guru.qa.lesson.domain.MenuItem;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
