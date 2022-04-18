@@ -23,6 +23,6 @@ public class SimpleTest {
     @DisplayName("Демонстрационный метод №2")
     @Test
     public void secondTest() {
-        Assertions.assertTrue(3 > 2, "3 > 2");
+        Assertions.assertTrue(3 == 2, "3 > 2");
     }
 }
