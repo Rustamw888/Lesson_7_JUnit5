@@ -49,6 +49,5 @@ public class HomeWorkJUnit {
                 method.invoke(SimpleTest.class.getDeclaredConstructor().newInstance());
             }
         }
-
     }
 }

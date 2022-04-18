@@ -4,7 +4,7 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import guru.qa.homework.enums.Sections;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -19,7 +19,7 @@ import static com.codeborne.selenide.Selenide.*;
 @DisplayName("Класс с тестами по домашней работе")
 public class HomeWork {
 
-    @BeforeEach
+    @BeforeAll
     public void setUp() {
         baseUrl = "https://www.ivi.ru";
         browserSize = "1920x1080";
